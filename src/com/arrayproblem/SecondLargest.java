@@ -11,8 +11,7 @@ public class SecondLargest {
                 temp = arr[i];
                     arr[i] = arr[j];
                    arr[j] = temp;
-                }
-
+                }}}
         System.out.println("Second largest no is " + arr[size - 2]);
     }
 }
